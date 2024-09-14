@@ -1,0 +1,22 @@
+{
+  "name": "samuelsimiyu/kopokopo",
+  "description": "PrestaShop module for integrating Kopokopo payment gateway.",
+  "type": "prestashop-module",
+  "require": {
+    "php": ">=7.2.5",
+    "kopokopo/k2-connect-php": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "icoresystems\\Kopokopo\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php bin/console prestashop:module:install kopokopo"
+    ],
+    "post-update-cmd": [
+      "php bin/console prestashop:module:install kopokopo"
+    ]
+  }
+}

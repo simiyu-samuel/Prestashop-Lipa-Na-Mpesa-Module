@@ -1,0 +1,28 @@
+{
+    "name": "kopokopo/k2-connect-php",
+    "description": "Kopokopo's php SDK",
+    "homepage": "https://github.com/kopokopo/k2-connect-php",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "authors": [
+        {
+            "name": "Nicollet Njora",
+            "email": "nicollet.njora05@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kopokopo\\SDK\\": "src/",
+            "Kopokopo\\SDK\\Requests\\": "src/requests",
+            "Kopokopo\\SDK\\Helpers\\": "src/helpers",
+            "Kopokopo\\SDK\\Data\\": "src/data",
+            "Kopokopo\\SDK\\Tests\\": "tests"
+        }
+    }
+}
