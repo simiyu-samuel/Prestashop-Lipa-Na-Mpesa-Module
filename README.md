@@ -5,7 +5,7 @@ Made With Love By Samuel Simiyu.
 #add the kopokopo folder in your modules directory where your prestashop is installed.
 2. Go to the admin panel and go to modules. The kopokopo module will appear.
 3. Install the module and configure by entering the correct values and keys.
-Note: these values are availlable on the kopokopo website K2 API.
+<br/>Note: these values are availlable on the kopokopo website K2 API.
 Fill in the:- -KOPOKOPO_TILL_NUMBER
               -KOPOKOPO_CLIENT_ID
               -KOPOKOPO_CLIENT_SECRET
