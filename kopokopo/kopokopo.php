@@ -106,7 +106,7 @@ class Kopokopo extends PaymentModule
 
 public function initiatePayment($amount, $currency, $phoneNumber, $email, $firstName, $lastName, $orderId, $currencyId)
 {
-    $apiUrl = 'https://api.kopokopo.com/api/v1/incoming_payments';
+    $apiUrl = 'https://sandbox.kopokopo.com/api/v1/incoming_payments';
     $accessToken = $this->getAccessToken();
     $tillNumber = Configuration::get('KOPOKOPO_TILL_NUMBER');
     
